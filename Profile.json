@@ -1,0 +1,42 @@
+{
+    "type": "object",
+    "properties": {
+        "userId": { "type": "number" },
+        "name": { "type": "string" },
+        "surname": { "type": "string" },
+        "gender": { "type": "string" },
+        "birthday": {
+            "day": { "type": "number" },
+            "month": { "type": "number" },
+            "year": { "type": "number" }
+        },
+        "age": { "type": "string" },
+        "phoneNumber": { "type": "number" },
+        "country": { "type": "string" },
+        "zipCode": { "type": "number" },
+        "provinceOrState": { "type": "string" },
+        "district": { "type": "string" },
+        "subDistrict": { "type": "string" },
+        "address": { "type": "number" },
+        "occupation": { "type": "string" },
+        "university": { "type": "string" },
+        "facultyOrSchool": { "type": "string" },
+        "major": { "type": "string" }
+        },
+    "require": [ 
+        "name",
+        "surname",
+        "gender",
+        "phoneNumber",
+        "country",
+        "zipCode",
+        "provinceOrState",
+        "district",
+        "subDistrict",
+        "address",
+        "occupation",
+        "university",
+        "facultyOrSchool",
+        "major"
+    ]
+}
